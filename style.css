@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;;
+}
+
+body{
+    background: radial-gradient(circle at center, #2e3b61, #0b0713, #0D1326);
+
+}
+
+header{
+    width:  100%;
+    height: 100vh;
+    
+}
+
+.hero{
+    justify-content: space-around;
+    margin-top: 2rem;
+    background: none;
+    display: flex;
+}
+
+.nav {
+    
+  display: flex;
+  gap: 40px;
+  padding: 20px 20px;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  justify-content: center;
+  width: 400px;
+  outline: 1px solid rgb(0, 225, 255);
+}
+.nav2 {
+  display: flex;
+  padding: 20px 10px;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  justify-content: center;
+  width: 60px;
+  align-items: center;
+  outline: 1px solid rgb(0, 225, 255);
+  cursor: pointer;
+}
+
+.nav .special {
+    justify-content: center;
+  color: #BFC6D1;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav .special:hover {
+  color: #2FD1FF;
+  transform: scale(1.2);
+}
+
+/* .burger{
+display:none;
+flex-direction:column;
+gap:6px;
+cursor:pointer;
+z-index:2001;
+}
+
+.burger span{
+width:25px;
+height:3px;
+background:white;
+transition:0.3s;
+}
+.burger.active span:nth-child(1){
+transform:rotate(45deg) translate(5px,5px);
+}
+
+.burger.active span:nth-child(2){
+opacity:0;
+}
+
+.burger.active span:nth-child(3){
+transform:rotate(-45deg) translate(6px,-6px);
+} */
+.me{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.container_me{
+    display: flex;
+}
+.container-main{
+    justify-self: center;
+    align-items: center;
+    background: none;
+    backdrop-filter: blur(50px);
+    
+}
+.principal{
+    margin-top: 9rem;
+    width: 700px;
+    height: 310px;
+    background: rgba(29, 29, 29, 0.6);
+    border-radius: 30px;
+    outline: 1px solid rgb(0, 225, 255);
+    box-shadow:0 0 15px #01103c,
+               0 0 15px #8899cc;
+    justify-items: center;
+    padding: 12px 20px;
+}
+.name{
+    color:gainsboro ;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+}
+h1{
+    font-family: "Poppins", sans-serif;;
+    font-weight: bolder;
+    font-size: 3.3rem;
+    color:rgb(0, 225, 255) ;
+    margin-top: 2rem;
+}
+.title{
+    font-size: 1.3rem;
+    color:  #7B61FF;
+}
+.icone{
+    
+    display: flex;
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+    margin-top: 0.6rem;
+}
+
+.fa-location-dot{
+    margin-top: 0.2rem;
+}
+.fa-github{
+    margin-top: 0.2rem;
+}
+.env{
+     margin-top: 0.3rem;
+}
+
+.btn{
+    
+    display: flex;
+    margin-top: 2rem;
+}
+.link{
+    justify-self: center;
+    width: 3rem;
+    height: 3rem;
+    background:rgba(58, 58, 58, 0.6) ;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+}
+.link1{
+    width: 12rem;
+    height: 3rem;
+    background:rgba(58, 58, 58, 0.6) ;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 1s;
+     background: linear-gradient(100deg, #4FACFE, #7B61FF, #ba5bea);
+
+}
+.link:hover{
+    outline: 1px solid rgb(0, 225, 255);
+    transition: 1s;
+    border: none;
+}
+.Btn-cv{
+    width: 12rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+    background: linear-gradient(100deg, #4FACFE, #7B61FF, #ba5bea);
+}
+
+.link1:hover{
+    background: 
+    linear-gradient(90deg,#ba5bea , #5644af, #4FACFE);
+    
+}
+
+.main{
+    justify-items: center;
+}
+
+h2{
+    font-family: "Poppins", sans-serif;;
+    font-weight: bolder;
+    font-size: 2.9rem;
+    color:#7B61FF;
+    margin-top: 2rem;
+    text-align: center;
+}
+.About{
+    text-align: center;
+    width: 800px;
+    margin-top: 1rem;
+    color: #BFC6D1;
+}
+.About_main{
+    display: flex;
+    gap: 20px;
+    margin-top: 6rem;
+}
+.About1{
+    width:550px;
+    height: 420px;
+    background: rgba(29, 29, 29, 0.6);
+    border-radius: 20px;
+    box-shadow:0 0 15px #01103c,
+               0 0 15px #8899cc;
+    outline: 1px solid rgb(0, 225, 255);
+}
+.About2{
+    width:550px;
+    height: 270px;
+     background: rgba(29, 29, 29, 0.6);
+    border-radius: 20px;
+     box-shadow:0 0 15px #01103c,
+               0 0 15px #8899cc;
+
+     outline: 1px solid rgb(0, 225, 255);
+}
+.About_title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:rgb(0, 225, 255) ;
+    margin:3rem 0 0 4rem;
+    letter-spacing: 1.5px;
+}
+.About_description{
+    width:420px;
+    margin:0.6rem 0 0 4rem;
+    color:#BFC6D1 ;
+    text-align: justify;
+}
+
+.descrip_look{
+    font-size: 1rem;
+    
+    color: white;
+    margin:0.6rem 0 0 4rem;
+}
+
+
+
+@media screen and (max-width:800px) {
+
+    header{
+        height: auto;
+        min-height: 800px;
+    }
+    .container-main{
+        flex-direction: column;
+        justify-self: center;
+    }
+    .principal{
+        text-align: center;
+        justify-self: center;
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        min-height: 450px;
+    }
+
+    .btn{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .icone{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .Btn-cv{
+        height: auto;
+    }
+
+    .main{
+       
+        flex-direction: column;
+        justify-self: center;
+    
+    }
+
+    .About{
+        
+        width: 90%;
+  
+    }
+    .About_main{
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        
+    }
+    .About1{
+        padding: 10px 20px;
+        justify-self: center;
+        width: 90%;
+        height: auto;
+        min-height: 500px;
+    }
+      .About2{
+        flex-wrap: wrap;
+         padding: 10px 20px;
+        justify-self: center;
+        width: 90%;
+        height: auto;
+        min-height: 300px;
+       
+    }
+     .About_description {
+       
+        width: 90%;
+        margin: 1rem auto;
+  }
+  
+
+  .descrip_look{
+    width: 90%;
+        margin: 1rem auto;
+  }
+
+}
+
