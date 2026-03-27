@@ -121,11 +121,13 @@ transform:rotate(-45deg) translate(6px,-6px);
     margin-left: 1rem;
 }
 h1{
-    font-family: "Poppins", sans-serif;;
+    font-family: "Poppins", sans-serif;
     font-weight: bolder;
-    font-size: 3.3rem;
-    color:rgb(0, 225, 255) ;
+    font-size: clamp(2rem, 5vw, 3.3rem);
+    color: rgb(0, 225, 255);
     margin-top: 2rem;
+    text-align: center;
+    flex-wrap: wrap;
 }
 .title{
     font-size: 1.3rem;
@@ -266,12 +268,98 @@ h2{
 
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:780px) {
 
     header{
         height: auto;
         min-height: 800px;
     }
+
+   
+    .container-main{
+        flex-direction: column;
+        justify-self: center;
+    }
+    .principal{
+        text-align: center;
+        justify-self: center;
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        min-height: 450px;
+    }
+
+    .btn{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .icone{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .Btn-cv{
+        height: auto;
+    }
+
+    .main{
+       
+        flex-direction: column;
+        justify-self: center;
+    
+    }
+
+    .About{
+        
+        width: 90%;
+  
+    }
+    .About_main{
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        
+    }
+    .About1{
+        padding: 10px 20px;
+        justify-self: center;
+        width: 90%;
+        height: auto;
+        min-height: 500px;
+    }
+      .About2{
+        flex-wrap: wrap;
+         padding: 10px 20px;
+        justify-self: center;
+        width: 90%;
+        height: auto;
+        min-height: 300px;
+       
+    }
+     .About_description {
+       
+        width: 90%;
+        margin: 1rem auto;
+  }
+  
+
+  .descrip_look{
+    width: 90%;
+        margin: 1rem auto;
+  }
+
+}
+
+
+@media screen and (min-width:781px) and (max-width:1500px){
+
+    header{
+        height: auto;
+        min-height: 800px;
+    }
+
+   
     .container-main{
         flex-direction: column;
         justify-self: center;
